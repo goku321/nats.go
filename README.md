@@ -5,20 +5,20 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 
 [License-Url]: https://www.apache.org/licenses/LICENSE-2.0
 [License-Image]: https://img.shields.io/badge/License-Apache2-blue.svg
-[ReportCard-Url]: https://goreportcard.com/report/github.com/nats-io/nats.go
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/nats-io/nats.go
-[Build-Status-Url]: https://travis-ci.com/github/nats-io/nats.go
-[Build-Status-Image]: https://travis-ci.com/nats-io/nats.go.svg?branch=main
-[GoDoc-Url]: https://pkg.go.dev/github.com/nats-io/nats.go
+[ReportCard-Url]: https://goreportcard.com/report/github.com/goku321/nats.go
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/goku321/nats.go
+[Build-Status-Url]: https://travis-ci.com/github/goku321/nats.go
+[Build-Status-Image]: https://travis-ci.com/goku321/nats.go.svg?branch=main
+[GoDoc-Url]: https://pkg.go.dev/github.com/goku321/nats.go
 [GoDoc-Image]: https://img.shields.io/badge/GoDoc-reference-007d9c
-[Coverage-Url]: https://coveralls.io/r/nats-io/nats.go?branch=main
-[Coverage-image]: https://coveralls.io/repos/github/nats-io/nats.go/badge.svg?branch=main
+[Coverage-Url]: https://coveralls.io/r/goku321/nats.go?branch=main
+[Coverage-image]: https://coveralls.io/repos/github/goku321/nats.go/badge.svg?branch=main
 
 ## Installation
 
 ```bash
 # Go client
-go get github.com/nats-io/nats.go/
+go get github.com/goku321/nats.go/
 
 # Server
 go get github.com/nats-io/nats-server
@@ -28,8 +28,8 @@ When using or transitioning to Go modules support:
 
 ```bash
 # Go client latest or explicit version
-go get github.com/nats-io/nats.go/@latest
-go get github.com/nats-io/nats.go/@v1.16.0
+go get github.com/goku321/nats.go/@latest
+go get github.com/goku321/nats.go/@v1.16.0
 
 # For latest NATS Server, add /v2 at the end
 go get github.com/nats-io/nats-server/v2
@@ -41,7 +41,7 @@ go get github.com/nats-io/nats-server/v2
 ## Basic Usage
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/goku321/nats.go"
 
 // Connect to a server
 nc, _ := nats.Connect(nats.DefaultURL)
@@ -93,7 +93,7 @@ nc.Close()
 ## JetStream Basic Usage
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/goku321/nats.go"
 
 // Connect to NATS
 nc, _ := nats.Connect(nats.DefaultURL)
@@ -137,7 +137,7 @@ sub.Drain()
 ## JetStream Basic Management
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/goku321/nats.go"
 
 // Connect to NATS
 nc, _ := nats.Connect(nats.DefaultURL)

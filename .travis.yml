@@ -2,7 +2,7 @@ language: go
 go:
 - 1.17.x
 - 1.16.x
-go_import_path: github.com/nats-io/nats.go
+go_import_path: github.com/goku321/nats.go
 install:
 - go get -t ./...
 - go get github.com/mattn/goveralls
