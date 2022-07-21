@@ -2300,6 +2300,13 @@ func BackOff(backOff []time.Duration) SubOpt {
 	})
 }
 
+func ConsumerReplicas(replicas int) SubOpt {
+	return subOptFn(func (opts *subOpts) error {
+		opts.cfg.Replicas = replicas
+		return nil
+	})
+}
+
 // BindStream binds a consumer to a stream explicitly based on a name.
 // When a stream name is not specified, the library uses the subscribe
 // subject as a way to find the stream name. It is done by making a request
