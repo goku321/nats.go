@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/encoders/protobuf"
-	"github.com/nats-io/nats.go/encoders/protobuf/testdata"
+	. "github.com/goku321/nats.go"
+	"github.com/goku321/nats.go/encoders/protobuf"
+	"github.com/goku321/nats.go/encoders/protobuf/testdata"
 )
 
 // Since we import above nats packages, we need to have a different

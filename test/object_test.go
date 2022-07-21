@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/goku321/nats.go"
 )
 
 func TestObjectBasics(t *testing.T) {

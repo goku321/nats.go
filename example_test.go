@@ -19,7 +19,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/goku321/nats.go"
 )
 
 // Shows different ways to create a Conn.

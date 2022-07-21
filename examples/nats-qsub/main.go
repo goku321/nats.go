@@ -20,7 +20,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/goku321/nats.go"
 )
 
 // NOTE: Can test with demo servers.
